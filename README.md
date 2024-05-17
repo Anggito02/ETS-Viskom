@@ -21,7 +21,7 @@ The implementation uses deep learning techniques to recognize facial emotions. W
 1. Clone this repository:
 
 ```
-git clone https://github.com/farroshsy/Simple-EmotionRecognition.git
+git clone https://github.com/Anggito02/ETS-Viskom.git
 ```
 
 2. Install the dependencies:

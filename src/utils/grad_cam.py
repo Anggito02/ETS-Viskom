@@ -80,9 +80,6 @@ def modify_backprop(model, name, task):
 
 
 def deprocess_image(x):
-    """ Same normalization as in:
-    https://github.com/fchollet/keras/blob/master/examples/conv_filter_visualization.py
-    """
     if np.ndim(x) > 3:
         x = np.squeeze(x)
     # normalize tensor: center on 0., ensure std is 0.1
